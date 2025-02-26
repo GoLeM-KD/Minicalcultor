@@ -16,6 +16,7 @@ public class MiniCalculator extends JFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 500);
         frame.setLayout(new BorderLayout());
+        frame.setResizable(false);
 
         // Display Area
         display = new JTextField();
